@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import supportIcon from "../../app/assets/support.svg";
-import duaIcon from "../../app/assets/dua.svg";
-import homeIcon from "../../app/assets/Home.svg";
-import allDuasIcon from "../../app/assets/allDua.svg";
-import memoriseIcon from "../../app/assets/Memorize.svg";
-import bookmarkIcon from "../../app/assets/Bookmark.svg";
-import rukyahIcon from "../../app/assets/Ruqyah.svg";
-import duaQAIcon from "../../app/assets/duaqa.svg";
-import bookIcon from "../../app/assets/Book.svg";
+import supportIcon from "../../../app/assets/support.svg";
+import duaIcon from "../../../app/assets/dua.svg";
+import homeIcon from "../../../app/assets/Home.svg";
+import allDuasIcon from "../../../app/assets/allDua.svg";
+import memoriseIcon from "../../../app/assets/Memorize.svg";
+import bookmarkIcon from "../../../app/assets/Bookmark.svg";
+import rukyahIcon from "../../../app/assets/Ruqyah.svg";
+import duaQAIcon from "../../../app/assets/duaqa.svg";
+import bookIcon from "../../../app/assets/Book.svg";
 
 function Navbar(props: any) {
   return (

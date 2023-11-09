@@ -1,13 +1,16 @@
-import Image from 'next/image'
-import Navbar from './Layout/Navbar'
+import Image from "next/image";
+import Navbar from "./components/Layout/Navbar";
+import MidSection from "./components/Layout/MidSection";
 
 export default function Home() {
   return (
     <main className="min-h-screen p-8">
-      <section className=''>
-        <Navbar/>
+      <section>
+        <Navbar />
       </section>
-hello
+      <section>
+        <MidSection />
+      </section>
     </main>
-  )
+  );
 }
